@@ -18,6 +18,7 @@ public class Main {
         System.out.println("Matéria: Engenharia de Software II");
         System.out.println();
         System.out.println("7º Exercício avaliativo - implementação de padrões");
+        System.out.println("--------------------------------------------------");
         System.out.println();
         padroesGoF.Main.main(args);
         System.out.println();

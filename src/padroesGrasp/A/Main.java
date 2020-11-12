@@ -8,5 +8,10 @@ public class Main {
 
         System.out.println("Questão A.1");
         padroesGrasp.A.QuestaoUm.ExemploTeste.Main.main(args);
+        System.out.println();
+
+        System.out.println("Questão A.2");
+        padroesGrasp.A.QuestaoDois.ExemploTeste.Main.main(args);
+        System.out.println();
     }
 }

@@ -14,6 +14,7 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         System.out.println("Padrões GoF:");
+        System.out.println("------------");
         System.out.println();
         System.out.println("Exercício 1:");
         padroesGoF.ex1.Main.main(args);

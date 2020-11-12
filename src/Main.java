@@ -20,7 +20,8 @@ public class Main {
         System.out.println("7º Exercício avaliativo - implementação de padrões");
         System.out.println();
         padroesGoF.Main.main(args);
-
-
+        System.out.println();
+        padroesGrasp.Main.main(args);
+        System.out.println();
     }
 }

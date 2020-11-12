@@ -6,3 +6,20 @@
 retornar os resultados como um vetor de objetos da classe Resultado (apresentada abaixo).
 Cada objeto conterá uma espécie e o número de animais da mesma contabilizados. Devem ser
 consideradas apenas as espécies cujos animais estão presentes no vetor.
+
+public class Resultado {
+    private String nomeEspecie; // nome da especie
+    private int quantidade; // quantidade de animais da especie
+    public Resultado(String nomeEspecie, int quantidade) {
+        this.nomeEspecie = nomeEspecie;
+        this.quantidade = quantidade;
+    }
+    public String getNomeEspecie() {
+        return nomeEspecie;
+    }
+    public int getQuantidade() {
+        return quantidade;
+    }
+}
+
+Nesta questão basta implementar o método, não é necessária a especificação da classe.

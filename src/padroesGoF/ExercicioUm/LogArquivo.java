@@ -1,9 +1,28 @@
-package padroesGoF.ex1;
+package padroesGoF.ExercicioUm;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
 
 /**
- * Implementa a interface Log, escrevendo os logs no console.
+ * Implementa a interface Log, escrevendo os logs em um arquivo.
  */
-public class LogConsole implements Log {
+public class LogArquivo implements Log {
+    private final PrintStream printStream;
+
+    /**
+     * Cria uma instância da classe LogArquivo.
+     *
+     * @throws IOException Exceções relacionadas a File e PrintStream.
+     */
+    public LogArquivo() throws IOException {
+        File file = new File("log.txt");
+        if (!file.exists())
+            if (!file.createNewFile())
+                System.out.println("Não foi possível criar o arquivo.");
+
+        this.printStream = new PrintStream(file);
+    }
 
     /**
      * Imprime um valor booleano.
@@ -12,7 +31,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(boolean x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -22,7 +41,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(char x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -32,7 +51,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(int x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -42,7 +61,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(long x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -52,7 +71,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(float x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -62,7 +81,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(double x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -72,7 +91,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(char[] x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -82,7 +101,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(String x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -92,7 +111,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void print(Object x) {
-        System.out.print(x);
+        this.printStream.print(x);
     }
 
     /**
@@ -100,7 +119,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println() {
-        System.out.println();
+        this.printStream.println();
     }
 
     /**
@@ -110,7 +129,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(boolean x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -120,7 +139,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(char x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -130,7 +149,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(int x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -140,7 +159,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(long x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -150,7 +169,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(float x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -160,7 +179,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(double x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -170,7 +189,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(char[] x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -180,7 +199,7 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(String x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 
     /**
@@ -190,6 +209,6 @@ public class LogConsole implements Log {
      */
     @Override
     public void println(Object x) {
-        System.out.println(x);
+        this.printStream.println(x);
     }
 }

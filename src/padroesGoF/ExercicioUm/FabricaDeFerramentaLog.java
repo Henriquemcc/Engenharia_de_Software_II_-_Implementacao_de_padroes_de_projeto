@@ -1,4 +1,4 @@
-package padroesGoF.ex1;
+package padroesGoF.ExercicioUm;
 
 import java.io.IOException;
 

@@ -17,7 +17,7 @@ public class Main {
         System.out.println("------------");
         System.out.println();
         System.out.println("Exercício 1:");
-        padroesGoF.ex1.Main.main(args);
+        padroesGoF.ExercicioUm.Main.main(args);
 
     }
 }

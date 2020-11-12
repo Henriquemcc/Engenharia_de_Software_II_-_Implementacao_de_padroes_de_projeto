@@ -18,7 +18,7 @@ Este repositório contém os arquivos de código fonte desenvolvidos na lista de
 
 [Enunciado](src/padroesGoF/ExercicioDois/Enunciado.md)
 
-[Resposta](src/padroesGoF/ExercicioDois)
+[Resposta](src/padroesGoF/ExercicioDois/Resposta.md)
 
 #### Exercício 3
 

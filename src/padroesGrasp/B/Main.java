@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Questão B.6");
-        System.out.println("Ainda não implementada");
+        padroesGrasp.B.QuestaoSeis.ExemploTeste.Main.main(args);
         System.out.println();
     }
 

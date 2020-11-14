@@ -10,7 +10,8 @@ public class DespesaMes {
 
     /**
      * Cria uma nova instância da classe DespesaMes
-     * @param mes Número do mês.
+     *
+     * @param mes   Número do mês.
      * @param valor Valor da despesa do mês.
      */
     public DespesaMes(int mes, float valor) {
@@ -20,6 +21,7 @@ public class DespesaMes {
 
     /**
      * Obtém o número do mês.
+     *
      * @return Número do mês.
      */
     public int getMes() {
@@ -28,6 +30,7 @@ public class DespesaMes {
 
     /**
      * Obtém o valor da despesa do mês.
+     *
      * @return Valor da despesa do mês.
      */
     public float getValor() {

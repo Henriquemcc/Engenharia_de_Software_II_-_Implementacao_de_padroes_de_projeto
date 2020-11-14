@@ -14,7 +14,7 @@ public class Main {
      *
      * @param args Argumentos do método (inútil).
      */
-    public static void main(String[]args) {
+    public static void main(String[] args) {
 
         //Criando as despesas
         DespesaMes despesaMes[] = new DespesaMes[31];

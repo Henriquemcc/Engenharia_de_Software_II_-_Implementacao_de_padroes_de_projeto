@@ -10,7 +10,8 @@ public class DespesasIndividuo {
 
     /**
      * Cria uma nova instância da classe DespesasIndividuo.
-     * @param cpf Cpf do indivíduo.
+     *
+     * @param cpf      Cpf do indivíduo.
      * @param despesas Vetor contendo instâncias de DespesaMes e DespesaDia.
      */
     public DespesasIndividuo(String cpf, DespesaMes despesas[]) {
@@ -20,6 +21,7 @@ public class DespesasIndividuo {
 
     /**
      * Obtém o cpf do indivíduo.
+     *
      * @return Cpf do individuo.
      */
     public String getCPF() {
@@ -28,14 +30,14 @@ public class DespesasIndividuo {
 
     /**
      * Obtém a soma de todas as despesas de um mês.
+     *
      * @param mes Número do mês.
      * @return Instância da classe DespesaMes contendo a soma das despesas do mês.
      */
     public DespesaMes totalizaMes(int mes) {
         float totalDespesas = 0;
 
-        for (DespesaMes despesa: this.despesas)
-        {
+        for (DespesaMes despesa : this.despesas) {
             if (despesa.getMes() == mes) {
                 totalDespesas += despesa.getValor();
             }

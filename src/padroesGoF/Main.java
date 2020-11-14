@@ -9,7 +9,7 @@ public class Main {
     /**
      * Função principal.
      *
-     * @param args Argumentos da função (inútil).
+     * @param args Argumentos do método (inútil).
      * @throws IOException Exceção das classes File e PrintStream.
      */
     public static void main(String[] args) throws IOException {

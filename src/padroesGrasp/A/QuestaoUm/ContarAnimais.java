@@ -5,14 +5,17 @@ import padroesGrasp.A.Ferramentas;
 
 import java.util.ArrayList;
 
+/**
+ * Contém o método contarAnimais
+ */
 public class ContarAnimais {
 
     /**
-     * O método deve contabilizar o número de animais disponíveis em cada uma das espécies e retornar os resultados como um vetor de objetos da classe Resultado (apresentada abaixo). Cada objeto conterá uma espécie e o número de animais da mesma contabilizados. Devem ser consideradas apenas as espécies cujos animais estão presentes no vetor.
+     * Conta a quantidade de animais de cada espécie.
      *
-     * @param A           um vetor A de objetos que implementam a interface Animal representando diversos animais.
-     * @param ferramentas um objeto que implementa a interface Ferramentas.
-     * @return
+     * @param A           Vetor de animais a serem contados.
+     * @param ferramentas Instância da classe Ferramentas, que contém os métodos filtraEspecie e classificaEspecies.
+     * @return Vetor de instâncias da classe Resultado, contendo o nome da espécie e a quantidade.
      */
     public static Resultado[] contarAnimais(Animal[] A, Ferramentas ferramentas) {
         //Obtendo os nomes das especies de animais

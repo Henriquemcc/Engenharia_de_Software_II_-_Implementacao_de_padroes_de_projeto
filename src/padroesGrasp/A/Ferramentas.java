@@ -1,20 +1,24 @@
 package padroesGrasp.A;
 
+/**
+ * Representa as ferramentas utilizadas pelo sistema do zoológico para filtrar e classificar as espécies de animais.
+ */
 public interface Ferramentas {
+
     /**
-     * Recebe como parâmetro um vetor contendo animais, que podem ser de várias espécies diferentes, e retorna um vetor que contém apenas os animais cuja espécie é especificada no parâmetro “especieFiltrar”. Se não houver nenhum animal da espécie especificada, retorna um vetor com zero posições.
+     * Filtra os animais por espécie.
      *
-     * @param completo       Vetor de animais que serão filtrados.
-     * @param especieFiltrar Nome da espécie do animal para realizar a filtragem.
+     * @param completo       Vetor de instâncias das classes que implementam a interface Animal.
+     * @param especieFiltrar Nome da espécie que será utilizada na filtragem.
      * @return Vetor de animais da espécie especificada.
      */
     Animal[] filtraEspecie(Animal[] completo, String especieFiltrar);
 
     /**
-     * Recebe como parâmetro um vetor contendo animais e retorna um vetor de Strings contendo o nome de todas as espécies que foram encontradas no vetor recebido como parâmetro. Cada nome de espécie só aparece uma vez no vetor de saída.
+     * Classifica as espécies dos animais.
      *
-     * @param completo Vetor de animais que serão classificados.
-     * @return Nome da espécie dos animais do vetor.
+     * @param completo Vetor de instâncias das classes que implementam a interface Animal.
+     * @return Vetor de String com os nomes dos animais.
      */
     String[] classificaEspecies(Animal[] completo);
 }

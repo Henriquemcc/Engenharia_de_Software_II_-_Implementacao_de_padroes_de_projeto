@@ -3,12 +3,15 @@ package padroesGrasp.A.QuestaoTres;
 import padroesGrasp.A.Animal;
 import padroesGrasp.A.QuestaoDois.ItemOrcamentoComplexo;
 
+/**
+ * Representa um animal de zoológico, que possuí um orçamento.
+ */
 public interface AnimalOrcamento extends Animal {
 
     /**
-     * Retorna o orçamento para gastos de um animal no zoológico.
+     * Obtém o orçamento do animal.
      *
-     * @return Orçamento para gastos de um animal no zoológico.
+     * @return Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     ItemOrcamentoComplexo orcamentoGastosAnimal();
 }

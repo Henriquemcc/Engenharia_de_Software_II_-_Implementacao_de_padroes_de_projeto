@@ -3,14 +3,14 @@ package padroesGoF.ExercicioUm;
 import java.io.IOException;
 
 /**
- * Classe principal do pacote ex1, que contém o código fonte da resposta do exercício 1 da lista de exercícios sobre os padrões GoF.
+ * Classe principal.
  */
 public class Main {
 
     /**
-     * Função principal
+     * Método principal.
      *
-     * @param args Argumentos da função (inútil).
+     * @param args Argumentos do método (inútil).
      * @throws IOException Exceção das classes File e PrintStream.
      */
     public static void main(String[] args) throws IOException {

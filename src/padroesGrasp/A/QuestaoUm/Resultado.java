@@ -1,13 +1,18 @@
 package padroesGrasp.A.QuestaoUm;
 
+/**
+ * Representa a quantidade de animais de uma determinada espécie.
+ */
 public class Resultado {
-    private final String nomeEspecie; // nome da especie
 
+    private final String nomeEspecie; // nome da especie
     private final int quantidade; // quantidade de animais da especie
 
     /**
-     * @param nomeEspecie
-     * @param quantidade
+     * Cria uma nova instância da classe Resultado.
+     *
+     * @param nomeEspecie Nome da espécie dos animais.
+     * @param quantidade  Quantidade de animais desta mesma espécie.
      */
     public Resultado(String nomeEspecie, int quantidade) {
         this.nomeEspecie = nomeEspecie;
@@ -15,14 +20,18 @@ public class Resultado {
     }
 
     /**
-     * @return
+     * Obtém o nome da espécie do animal.
+     *
+     * @return Nome da espécie do animal.
      */
     public String getNomeEspecie() {
         return nomeEspecie;
     }
 
     /**
-     * @return
+     * Obtém a quantidade de animais desta mesma espécie.
+     *
+     * @return Quantidade de animais desta mesma espécie.
      */
     public int getQuantidade() {
         return quantidade;

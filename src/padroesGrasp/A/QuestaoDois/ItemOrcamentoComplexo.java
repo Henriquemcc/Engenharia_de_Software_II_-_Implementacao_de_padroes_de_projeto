@@ -1,5 +1,8 @@
 package padroesGrasp.A.QuestaoDois;
 
+/**
+ *
+ */
 public class ItemOrcamentoComplexo extends ItemOrcamento {
 
     public ItemOrcamento[] subItemOrcamento;

@@ -4,14 +4,17 @@ import padroesGrasp.A.QuestaoDois.ItemOrcamento;
 
 import java.util.ArrayList;
 
+/**
+ * Contém o método filtrarOrcamentoAnimais.
+ */
 public class FiltrarOrcamentoAnimais {
 
     /**
      * Filtra o vetor de objetos AnimalOrcamento que tiverem o historico procurado.
      *
-     * @param animalOrcamentos Vator de animalOrcamento que serão filtrados.
-     * @param historico        Historico procurado.
-     * @return Vetor de OrcamentoAnimais filtrado.
+     * @param animalOrcamentos Vetor de instâncias da classe AnimalOrcamento a serem filtrados.
+     * @param historico        Histórico do orçamento procurado.
+     * @return Vetor de instâncias da classe AnimaisOrcamento que contém o histórico procurado no orçamento.
      */
     public static AnimalOrcamento[] filtrarOrcamentoAnimais(AnimalOrcamento[] animalOrcamentos, String historico) {
 

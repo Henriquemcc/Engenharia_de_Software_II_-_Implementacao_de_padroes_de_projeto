@@ -7,8 +7,16 @@ import padroesGrasp.A.QuestaoTres.FiltrarOrcamentoAnimais;
 
 import java.util.ArrayList;
 
+/**
+ * Classe principal.
+ */
 public class Main {
 
+    /**
+     * Método principal.
+     *
+     * @param args Argumentos do método (inútil).
+     */
     public static void main(String[] args) {
 
         ArrayList<AnimalOrcamento> animais = new ArrayList<AnimalOrcamento>();
@@ -54,6 +62,12 @@ public class Main {
         animais.add(new Lemure("Rei Julian", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Lemure("Maurice", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Lemure("Mork", new ItemOrcamentoComplexo("Gastos", 0, itens)));
+        itens = null;
+
+        //Criando os chimpanzés
+        itens = new ItemOrcamento[]{racao, vacinaW, veterinario, banho, tosa, vacinaG};
+        animais.add(new Chimpanze("Mason", new ItemOrcamentoComplexo("Gastos", 0, itens)));
+        animais.add(new Chimpanze("Phil", new ItemOrcamentoComplexo("Gastos", 0, itens)));
 
         //Imprimindo os animais
         System.out.println("Todos os animais");

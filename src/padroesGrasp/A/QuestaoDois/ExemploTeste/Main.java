@@ -5,8 +5,16 @@ import padroesGrasp.A.QuestaoDois.ItemOrcamentoComplexo;
 
 import java.util.ArrayList;
 
+/**
+ * Classe principal.
+ */
 public class Main {
 
+    /**
+     * Método principal.
+     *
+     * @param args Argumentos do método (inútil).
+     */
     public static void main(String[] args) {
 
         //Criando os subitems do orçamento

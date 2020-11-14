@@ -20,7 +20,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Questão B.5");
-        padroesGrasp.B.QuestaoQuatro.ExemploTeste.Main.main(args);
+        padroesGrasp.B.QuestaoCinco.ExemploTeste.Main.main(args);
         System.out.println();
 
         System.out.println("Questão B.6");

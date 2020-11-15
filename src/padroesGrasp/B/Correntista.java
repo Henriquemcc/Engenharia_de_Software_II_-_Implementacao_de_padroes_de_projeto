@@ -5,7 +5,7 @@ package padroesGrasp.B;
  */
 public class Correntista {
 
-    private String cpfCliente; // cpf do correntista
+    private final String cpfCliente; // cpf do correntista
     private float saldo; // saldo da conta
 
     /**

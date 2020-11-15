@@ -5,8 +5,8 @@ package padroesGrasp.B.QuestaoCinco;
  */
 public class DespesasIndividuo {
 
-    private DespesaMes despesas[];
-    private String cpf;
+    private final DespesaMes[] despesas;
+    private final String cpf;
 
     /**
      * Cria uma nova instância da classe DespesasIndividuo.
@@ -14,7 +14,7 @@ public class DespesasIndividuo {
      * @param cpf      Cpf do indivíduo.
      * @param despesas Vetor contendo instâncias de DespesaMes e DespesaDia.
      */
-    public DespesasIndividuo(String cpf, DespesaMes despesas[]) {
+    public DespesasIndividuo(String cpf, DespesaMes[] despesas) {
         this.cpf = cpf;
         this.despesas = despesas;
     }

@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        ArrayList<Animal> animais = new ArrayList<Animal>();
+        ArrayList<Animal> animais = new ArrayList<>();
         animais.add(new Gato("Chumbinho"));
         animais.add(new Gato("Greta"));
         animais.add(new Gato("Tom"));

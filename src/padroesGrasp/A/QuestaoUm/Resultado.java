@@ -5,8 +5,8 @@ package padroesGrasp.A.QuestaoUm;
  */
 public class Resultado {
 
-    private final String nomeEspecie; // nome da especie
-    private final int quantidade; // quantidade de animais da especie
+    private final String nomeEspecie; // nome da espécie
+    private final int quantidade; // quantidade de animais da espécie
 
     /**
      * Cria uma nova instância da classe Resultado.

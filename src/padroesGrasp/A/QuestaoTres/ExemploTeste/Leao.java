@@ -12,7 +12,7 @@ public class Leao implements AnimalOrcamento {
     private final ItemOrcamentoComplexo orcamento;
 
     /**
-     * Cria uma nova instância da classe Leao.
+     * Cria uma nova instância da classe Leão.
      *
      * @param nomeAnimal Nome do animal.
      * @param orcamento  Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
@@ -25,7 +25,7 @@ public class Leao implements AnimalOrcamento {
     /**
      * Obtém o orçamento do animal.
      *
-     * @return Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
+     * @return Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     @Override
     public ItemOrcamentoComplexo orcamentoGastosAnimal() {

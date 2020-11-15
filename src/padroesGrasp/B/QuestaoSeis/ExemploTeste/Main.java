@@ -18,10 +18,10 @@ public class Main {
     public static void main(String[] args) {
 
         //Criando os correntistas
-        CorrentistaDespesa correntistas[] = new CorrentistaDespesa[10];
+        CorrentistaDespesa[] correntistas = new CorrentistaDespesa[10];
 
         //Correntista 0
-        DespesaMes despesaMes[] = new DespesaMes[12];
+        DespesaMes[] despesaMes = new DespesaMes[12];
         despesaMes[0] = new DespesaMes(1, 600);
         despesaMes[1] = new DespesaMes(2, 700);
         despesaMes[2] = new DespesaMes(3, 35708);
@@ -36,8 +36,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 600);
         DespesasIndividuo despesas = new DespesasIndividuo("674.196.060-05", despesaMes);
         correntistas[0] = new CorrentistaDespesa("674.196.060-05", 10000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 1
         despesaMes = new DespesaMes[12];
@@ -55,8 +53,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 1700);
         despesas = new DespesasIndividuo("598.095.450-37", despesaMes);
         correntistas[1] = new CorrentistaDespesa("598.095.450-37", 5000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 2
         despesaMes = new DespesaMes[12];
@@ -74,8 +70,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 1800);
         despesas = new DespesasIndividuo("813.867.860-71", despesaMes);
         correntistas[2] = new CorrentistaDespesa("813.867.860-71", 20000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 3
         despesaMes = new DespesaMes[12];
@@ -93,8 +87,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 3600);
         despesas = new DespesasIndividuo("955.235.890-63", despesaMes);
         correntistas[3] = new CorrentistaDespesa("955.235.890-63", 30000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 4
         despesaMes = new DespesaMes[12];
@@ -112,8 +104,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 7200);
         despesas = new DespesasIndividuo("886.388.680-65", despesaMes);
         correntistas[4] = new CorrentistaDespesa("886.388.680-65", 60000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 5
         despesaMes = new DespesaMes[12];
@@ -131,8 +121,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 14400);
         despesas = new DespesasIndividuo("003.971.410-17", despesaMes);
         correntistas[5] = new CorrentistaDespesa("003.971.410-17", 30000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 6
         despesaMes = new DespesaMes[12];
@@ -150,8 +138,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 1000);
         despesas = new DespesasIndividuo("294.565.050-90", despesaMes);
         correntistas[6] = new CorrentistaDespesa("294.565.050-90", 120000, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 7
         despesaMes = new DespesaMes[12];
@@ -169,8 +155,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 71764);
         despesas = new DespesasIndividuo("279.915.850-18", despesaMes);
         correntistas[7] = new CorrentistaDespesa("279.915.850-18", 7769191, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 8
         despesaMes = new DespesaMes[12];
@@ -188,8 +172,6 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 216);
         despesas = new DespesasIndividuo("524.809.720-70", despesaMes);
         correntistas[8] = new CorrentistaDespesa("524.809.720-70", 4865, despesas);
-        despesaMes = null;
-        despesas = null;
 
         //Correntista 9
         despesaMes = new DespesaMes[12];
@@ -207,10 +189,8 @@ public class Main {
         despesaMes[11] = new DespesaMes(12, 41912);
         despesas = new DespesasIndividuo("913.470.780-88", despesaMes);
         correntistas[9] = new CorrentistaDespesa("913.470.780-88", 25333, despesas);
-        despesaMes = null;
-        despesas = null;
 
-        CorrentistaDespesa correntistasDespesasMaiorSaldoMarco[] = ObterCorrentistasDespesaMaiorSaldo.obterCorrentistasDespesaMaiorSaldoMarco(correntistas);
+        CorrentistaDespesa[] correntistasDespesasMaiorSaldoMarco = ObterCorrentistasDespesaMaiorSaldo.obterCorrentistasDespesaMaiorSaldoMarco(correntistas);
 
         //Imprimindo os correntistas com despesa maior que saldo para o mês de março.
         for (CorrentistaDespesa c : correntistasDespesasMaiorSaldoMarco) {

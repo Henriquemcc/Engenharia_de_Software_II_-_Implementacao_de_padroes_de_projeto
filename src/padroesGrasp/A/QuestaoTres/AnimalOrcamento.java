@@ -11,7 +11,7 @@ public interface AnimalOrcamento extends Animal {
     /**
      * Obtém o orçamento do animal.
      *
-     * @return Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
+     * @return Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     ItemOrcamentoComplexo orcamentoGastosAnimal();
 }

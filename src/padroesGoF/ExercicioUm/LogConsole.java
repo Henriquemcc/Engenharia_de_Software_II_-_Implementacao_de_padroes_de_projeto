@@ -36,7 +36,7 @@ public class LogConsole implements Log {
     }
 
     /**
-     * Imprime um númer inteiro de 64 bits.
+     * Imprime um número inteiro de 64 bits.
      *
      * @param x Número inteiro de 64 bits que será impresso.
      */
@@ -134,7 +134,7 @@ public class LogConsole implements Log {
     }
 
     /**
-     * Imprime um númer inteiro de 64 bits e uma quebra de linha.
+     * Imprime um número inteiro de 64 bits e uma quebra de linha.
      *
      * @param x Número inteiro de 64 bits que será impresso.
      */

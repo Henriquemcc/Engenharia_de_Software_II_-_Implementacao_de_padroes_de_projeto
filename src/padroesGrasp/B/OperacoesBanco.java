@@ -12,5 +12,5 @@ public interface OperacoesBanco {
      * @param cpfProcurado      CPF do correntista procurado.
      * @return Correntista procurado.
      */
-    public Correntista encontraCorrentista(Correntista todosCorrentistas[], String cpfProcurado);
+    Correntista encontraCorrentista(Correntista[] todosCorrentistas, String cpfProcurado);
 }

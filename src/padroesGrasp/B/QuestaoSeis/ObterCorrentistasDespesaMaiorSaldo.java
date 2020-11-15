@@ -14,9 +14,9 @@ public class ObterCorrentistasDespesaMaiorSaldo {
      * @param mes                Número do mês das despesas.
      * @return Vetor de instâncias da classe CorrentistaDespesa contendo os correntistas cujas despesas sejam maiores que o saldo da conta.
      */
-    private static CorrentistaDespesa[] obterCorrentistasDespesaMaiorSaldo(CorrentistaDespesa correntistaDespesa[], int mes) {
+    private static CorrentistaDespesa[] obterCorrentistasDespesaMaiorSaldo(CorrentistaDespesa[] correntistaDespesa, @SuppressWarnings("SameParameterValue") int mes) {
 
-        ArrayList<CorrentistaDespesa> correntistaDespesaMaiorSaldo = new ArrayList<CorrentistaDespesa>();
+        ArrayList<CorrentistaDespesa> correntistaDespesaMaiorSaldo = new ArrayList<>();
 
         for (CorrentistaDespesa c : correntistaDespesa) {
             if (c.getDespesasPrevistas().totalizaMes(mes).getValor() > c.getSaldo()) {
@@ -33,7 +33,7 @@ public class ObterCorrentistasDespesaMaiorSaldo {
      * @param correntistaDespesa Vetor de instâncias da classe CorrentistaDespesa contendo os correntistas.
      * @return Vetor de instâncias da classe CorrentistaDespesa contendo os correntistas cujas despesas sejam maiores que o saldo da conta.
      */
-    public static CorrentistaDespesa[] obterCorrentistasDespesaMaiorSaldoMarco(CorrentistaDespesa correntistaDespesa[]) {
+    public static CorrentistaDespesa[] obterCorrentistasDespesaMaiorSaldoMarco(CorrentistaDespesa[] correntistaDespesa) {
         return obterCorrentistasDespesaMaiorSaldo(correntistaDespesa, 3);
     }
 

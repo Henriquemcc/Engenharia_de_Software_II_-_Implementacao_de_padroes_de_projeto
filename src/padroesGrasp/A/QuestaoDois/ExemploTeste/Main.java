@@ -17,8 +17,8 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        //Criando os subitems do orçamento
-        ArrayList<ItemOrcamento> itensOrcamento = new ArrayList<ItemOrcamento>();
+        //Criando os subitens do orçamento
+        ArrayList<ItemOrcamento> itensOrcamento = new ArrayList<>();
         itensOrcamento.add(new ItemOrcamento("Alimentação", 1000));
         itensOrcamento.add(new ItemOrcamento("Educação", 5000));
         itensOrcamento.add(new ItemOrcamento("Saúde", 2000));

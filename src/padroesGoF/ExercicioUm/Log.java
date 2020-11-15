@@ -24,7 +24,7 @@ interface Log {
     void print(int x);
 
     /**
-     * Imprime um númer inteiro de 64 bits.
+     * Imprime um número inteiro de 64 bits.
      *
      * @param x Número inteiro de 64 bits que será impresso.
      */
@@ -92,7 +92,7 @@ interface Log {
     void println(int x);
 
     /**
-     * Imprime um númer inteiro de 64 bits e uma quebra de linha.
+     * Imprime um número inteiro de 64 bits e uma quebra de linha.
      *
      * @param x Número inteiro de 64 bits que será impresso.
      */

@@ -5,8 +5,8 @@ package padroesGrasp.B.QuestaoCinco;
  */
 public class DespesaMes {
 
-    private int mes; // mês da despesa
-    private float valor; // valor da despesa
+    private final int mes; // mês da despesa
+    private final float valor; // valor da despesa
 
     /**
      * Cria uma nova instância da classe DespesaMes

@@ -8,7 +8,7 @@ import padroesGrasp.B.QuestaoCinco.DespesasIndividuo;
  */
 public class CorrentistaDespesa extends Correntista {
 
-    private DespesasIndividuo despesasPrevistas; // despesas previstas
+    private final DespesasIndividuo despesasPrevistas; // despesas previstas
 
     /**
      * Cria uma nova instância da classe CorrentistaDespesa.

@@ -5,7 +5,7 @@ package padroesGrasp.B.QuestaoCinco;
  */
 public class DespesaDia extends DespesaMes {
 
-    private int dia; // dia da despesa
+    private final int dia; // dia da despesa
 
     /**
      * Cria uma nova instância da classe DespesaMes.

@@ -20,7 +20,7 @@ public class ProcessarAnimais implements Ferramentas {
     @Override
     public Animal[] filtraEspecie(Animal[] completo, String especieFiltrar) {
 
-        ArrayList<Animal> animaisDaEspecieEspecificada = new ArrayList<Animal>();
+        ArrayList<Animal> animaisDaEspecieEspecificada = new ArrayList<>();
 
         for (Animal animal : completo) {
             if (animal.getNomeEspecie().equals(especieFiltrar))
@@ -39,8 +39,8 @@ public class ProcessarAnimais implements Ferramentas {
     @Override
     public String[] classificaEspecies(Animal[] completo) {
 
-        //Contando a quantidade de especies diferentes
-        ArrayList<String> especiesDeAnimais = new ArrayList<String>();
+        //Contando a quantidade de espécies diferentes
+        ArrayList<String> especiesDeAnimais = new ArrayList<>();
         for (Animal animal : completo) {
             String nomeEspecie = animal.getNomeEspecie();
             if (!especiesDeAnimais.contains(nomeEspecie))

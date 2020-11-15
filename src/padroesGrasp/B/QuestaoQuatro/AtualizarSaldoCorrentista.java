@@ -16,7 +16,7 @@ public class AtualizarSaldoCorrentista {
      * @param M              Vetor de instâncias da classe MovimentoConta.
      * @param operacoesBanco Instância de classe que implementa a interface OperacoesBanco.
      */
-    public static void atualizarSaldoCorrentistas(Correntista C[], MovimentoConta M[], OperacoesBanco operacoesBanco) {
+    public static void atualizarSaldoCorrentistas(Correntista[] C, MovimentoConta[] M, OperacoesBanco operacoesBanco) {
 
         for (MovimentoConta movimentoConta : M) {
             Correntista correntista = operacoesBanco.encontraCorrentista(C, movimentoConta.getCPFCorrentista());

@@ -15,7 +15,7 @@ public class Girafa implements AnimalOrcamento {
      * Cria uma nova instância da classe Girafa.
      *
      * @param nomeAnimal Nome do animal.
-     * @param orcamento  Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
+     * @param orcamento  Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     public Girafa(String nomeAnimal, ItemOrcamentoComplexo orcamento) {
         this.nomeAnimal = nomeAnimal;
@@ -25,7 +25,7 @@ public class Girafa implements AnimalOrcamento {
     /**
      * Obtém o orçamento do animal.
      *
-     * @return Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
+     * @return Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     @Override
     public ItemOrcamentoComplexo orcamentoGastosAnimal() {

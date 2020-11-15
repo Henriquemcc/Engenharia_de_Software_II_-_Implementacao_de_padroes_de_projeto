@@ -18,11 +18,11 @@ public class ContarAnimais {
      * @return Vetor de instâncias da classe Resultado, contendo o nome da espécie e a quantidade.
      */
     public static Resultado[] contarAnimais(Animal[] A, Ferramentas ferramentas) {
-        //Obtendo os nomes das especies de animais
+        //Obtendo os nomes das espécies de animais
         String[] nomeEspecieAnimais = ferramentas.classificaEspecies(A);
 
         //Criando o arranjo de Resultado
-        ArrayList<Resultado> resultados = new ArrayList<Resultado>();
+        ArrayList<Resultado> resultados = new ArrayList<>();
         for (String nomeEspecie : nomeEspecieAnimais) {
             int quantidade = ferramentas.filtraEspecie(A, nomeEspecie).length;
             Resultado resultado = new Resultado(nomeEspecie, quantidade);

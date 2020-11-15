@@ -11,7 +11,7 @@ public class FabricaDeFerramentaLog {
      * Método construtor: Cria um novo objeto que implementa a interface Log.
      *
      * @param tipoLog String contendo informações sobre o tipo de Log que será criado. Tipos possíveis: "arquivo", "console".
-     * @return Instancia de objeto que implementa a interface Log.
+     * @return Instância de objeto que implementa a interface Log.
      * @throws IOException Exceções das classes File e PrintStream.
      */
     public Log getLog(String tipoLog) throws IOException {

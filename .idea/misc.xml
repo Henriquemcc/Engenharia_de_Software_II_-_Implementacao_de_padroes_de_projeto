@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <pattern value="padroesGrasp.B.QuestaoCinco.DespesaDia" />
+    <pattern value="padroesGrasp.B.QuestaoCinco.DespesaDia" method="getDia" />
+    <pattern value="padroesGoF.ExercicioUm.Log" />
+    <pattern value="Main" />
+    <pattern value="padroesGoF.ExercicioTres.ExemploTeste.Main" />
+    <pattern value="padroesGoF.ExercicioUm.Main" />
+    <pattern value="padroesGoF.Main" />
+    <pattern value="padroesGrasp.A.Main" />
+    <pattern value="padroesGrasp.A.QuestaoDois.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.A.QuestaoTres.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.A.QuestaoUm.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.B.Main" />
+    <pattern value="padroesGrasp.B.QuestaoCinco.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.B.QuestaoQuatro.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.B.QuestaoSeis.ExemploTeste.Main" />
+    <pattern value="padroesGrasp.Main" />
+    <pattern value="padroesGrasp.B.QuestaoQuatro.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.B.QuestaoCinco.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.B.QuestaoSeis.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.B.Main" method="main" />
+    <pattern value="padroesGrasp.A.QuestaoTres.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.A.QuestaoDois.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.A.QuestaoUm.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGrasp.A.Main" method="main" />
+    <pattern value="padroesGrasp.Main" method="main" />
+    <pattern value="padroesGoF.ExercicioUm.Main" method="main" />
+    <pattern value="padroesGoF.Main" method="main" />
+    <pattern value="Main" method="main" />
+    <pattern value="padroesGoF.ExercicioTres.ExemploTeste.Main" method="main" />
+    <pattern value="padroesGoF.ExercicioUm.Log" method="print" />
+    <pattern value="padroesGoF.ExercicioUm.Log" method="println" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

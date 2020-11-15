@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Criando as movimentações
-        Movimentacao movimentacao[] = new Movimentacao[9];
+        Movimentacao[] movimentacao = new Movimentacao[9];
         movimentacao[0] = new Movimentacao("647.243.400-02", -2000);
         movimentacao[1] = new Movimentacao("136.052.500-92", 2000);
         movimentacao[2] = new Movimentacao("218.499.580-09", -5000);
@@ -28,7 +28,7 @@ public class Main {
         movimentacao[8] = new Movimentacao("815.232.700-04", -7000);
 
         //Criando as contas bancários
-        Correntista correntistas[] = new Correntista[11];
+        Correntista[] correntistas = new Correntista[11];
         correntistas[0] = new Correntista("136.052.500-92", 20000);
         correntistas[1] = new Correntista("218.499.580-09", 30000);
         correntistas[2] = new Correntista("578.510.340-00", 25000);

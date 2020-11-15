@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class FiltrarOrcamentoAnimais {
 
     /**
-     * Filtra o vetor de objetos AnimalOrcamento que tiverem o historico procurado.
+     * Filtra o vetor de objetos AnimalOrcamento que tiverem o histórico procurado.
      *
      * @param animalOrcamentos Vetor de instâncias da classe AnimalOrcamento a serem filtrados.
      * @param historico        Histórico do orçamento procurado.
@@ -18,7 +18,7 @@ public class FiltrarOrcamentoAnimais {
      */
     public static AnimalOrcamento[] filtrarOrcamentoAnimais(AnimalOrcamento[] animalOrcamentos, String historico) {
 
-        ArrayList<AnimalOrcamento> animalOrcamentosProcurados = new ArrayList<AnimalOrcamento>();
+        ArrayList<AnimalOrcamento> animalOrcamentosProcurados = new ArrayList<>();
 
         for (AnimalOrcamento animal : animalOrcamentos) {
             ItemOrcamento item = animal.orcamentoGastosAnimal().encontraItem(historico);

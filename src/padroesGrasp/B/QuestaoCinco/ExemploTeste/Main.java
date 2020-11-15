@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Criando as despesas
-        DespesaMes despesaMes[] = new DespesaMes[31];
+        DespesaMes[] despesaMes = new DespesaMes[31];
         despesaMes[0] = new DespesaDia(1, 1, 200);
         despesaMes[1] = new DespesaDia(2, 1, 300);
         despesaMes[2] = new DespesaDia(3, 1, 200);

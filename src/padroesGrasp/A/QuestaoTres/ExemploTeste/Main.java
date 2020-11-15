@@ -19,7 +19,7 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        ArrayList<AnimalOrcamento> animais = new ArrayList<AnimalOrcamento>();
+        ArrayList<AnimalOrcamento> animais = new ArrayList<>();
 
         //Criando os itens
         ItemOrcamento racao = new ItemOrcamento("Ração", 1000);
@@ -32,22 +32,18 @@ public class Main {
         //Criando uma Girafa
         ItemOrcamento[] itens = new ItemOrcamento[]{racao, vacinaG, banho, veterinario};
         animais.add(new Girafa("Melman", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando um Leão
         itens = new ItemOrcamento[]{racao, vacinaW, banho, veterinario, tosa};
         animais.add(new Leao("Alex", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando um hipopótamo
         itens = new ItemOrcamento[]{racao, vacinaG, vacinaW, veterinario};
         animais.add(new Hipopotamo("Glória", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando uma zebra
         itens = new ItemOrcamento[]{racao, vacinaG, vacinaW, veterinario, tosa};
         animais.add(new Zebra("Marty", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando quatro pinguins
         itens = new ItemOrcamento[]{racao, vacinaW, veterinario};
@@ -55,14 +51,12 @@ public class Main {
         animais.add(new Pinguim("Kowalski", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Pinguim("Rico", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Pinguim("Recruta", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando três lêmures
         itens = new ItemOrcamento[]{racao, vacinaG, veterinario, banho, tosa};
         animais.add(new Lemure("Rei Julian", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Lemure("Maurice", new ItemOrcamentoComplexo("Gastos", 0, itens)));
         animais.add(new Lemure("Mork", new ItemOrcamentoComplexo("Gastos", 0, itens)));
-        itens = null;
 
         //Criando os chimpanzés
         itens = new ItemOrcamento[]{racao, vacinaW, veterinario, banho, tosa, vacinaG};

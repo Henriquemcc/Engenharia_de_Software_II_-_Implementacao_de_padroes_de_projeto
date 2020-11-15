@@ -7,8 +7,8 @@ import padroesGrasp.B.MovimentoConta;
  */
 public class Movimentacao implements MovimentoConta {
 
-    private String cpf;
-    private float valorMovimento;
+    private final String cpf;
+    private final float valorMovimento;
 
     /**
      * Cria uma nova instância da classe Movimentacao.

@@ -25,7 +25,7 @@ public class Pinguim implements AnimalOrcamento {
     /**
      * Obtém o orçamento do animal.
      *
-     * @return Instancia da classe ItemOrcamentoComplexo contendo o orçamento do animal.
+     * @return Instância da classe ItemOrcamentoComplexo contendo o orçamento do animal.
      */
     @Override
     public ItemOrcamentoComplexo orcamentoGastosAnimal() {

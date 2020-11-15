@@ -5,14 +5,14 @@ package padroesGrasp.A.QuestaoDois;
  */
 public class ItemOrcamentoComplexo extends ItemOrcamento {
 
-    public ItemOrcamento[] subItemOrcamento;
+    public final ItemOrcamento[] subItemOrcamento;
 
     /**
-     * Além dos parâmetros da superclasse, recebe como parâmetro o vetor com os subitens de orçamento.
+     * Cria uma nova instância da classe ItemOrcamentoComplexo.
      *
-     * @param historico
-     * @param valor
-     * @param subItemOrcamento
+     * @param historico        Histórico do item do orçamento.
+     * @param valor            Valor do item do orçamento.
+     * @param subItemOrcamento Subitem do orçamento.
      */
     public ItemOrcamentoComplexo(String historico, float valor, ItemOrcamento[] subItemOrcamento) {
         super(historico, valor);
@@ -20,9 +20,9 @@ public class ItemOrcamentoComplexo extends ItemOrcamento {
     }
 
     /**
-     * Sobrescreve o método da superclasse, retornando a soma de valores de todos os subitens de orçamento.
+     * Obtém o valor do item do orçamento.
      *
-     * @return
+     * @return Valor do item do orçamento.
      */
     @Override
     public float getValor() {
@@ -36,10 +36,10 @@ public class ItemOrcamentoComplexo extends ItemOrcamento {
     }
 
     /**
-     * Recebe como parâmetro o histórico de um subitem (String) e retorna o objeto correspondente ao subitem que possui este histórico, se existir. Se não existir retorna null.
+     * Encontra um subitem do orçamento de acordo com o seu histórico.
      *
-     * @param historico
-     * @return
+     * @param historico Histórico do item do orçamento procurado.
+     * @return Subitem do orçamento com o histórico procurado.
      */
     public ItemOrcamento encontraItem(String historico) {
 

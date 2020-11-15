@@ -10,12 +10,12 @@ public interface MovimentoConta {
      *
      * @return CPF do cliente.
      */
-    public String getCPFCorrentista();
+    String getCPFCorrentista();
 
     /**
      * Retorna o valor do movimento (positivo se for crédito e negativo se for débito).
      *
      * @return Valor do movimento da conta.s
      */
-    public float getValorMovimento();
+    float getValorMovimento();
 }

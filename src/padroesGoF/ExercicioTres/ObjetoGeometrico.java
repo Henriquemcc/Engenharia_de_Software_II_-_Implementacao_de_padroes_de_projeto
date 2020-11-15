@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Map;
 
-public class ObjetoGeomatrico {
+public class ObjetoGeometrico {
 
     private FormasGeometricas formaGeometrica;
     private Map<String, Integer> dadosFormaGeometrica;
@@ -16,7 +16,7 @@ public class ObjetoGeomatrico {
         circulo
     }
 
-    public ObjetoGeomatrico(FormasGeometricas formaGeometrica, Map<String, Integer> dadosFormaGeometrica) {
+    public ObjetoGeometrico(FormasGeometricas formaGeometrica, Map<String, Integer> dadosFormaGeometrica) {
         this.formaGeometrica = formaGeometrica;
         this.dadosFormaGeometrica = dadosFormaGeometrica;
     }
@@ -37,9 +37,11 @@ public class ObjetoGeomatrico {
         JPanel panel = null;
         if (formaGeometrica == FormasGeometricas.linha) {
             int x1 = centroX + dadosFormaGeometrica.get("x1");
-            int x2 = centroX + 0;
             int y1 = centroY + dadosFormaGeometrica.get("y1");
+
             int y2 = centroY + dadosFormaGeometrica.get("y2");
+            int x2 = y2;//centroX + 0;
+
             panel = new DesenharLinha(x1, y1, x2, y2);
         }
         else if (formaGeometrica == FormasGeometricas.circulo) {
@@ -50,10 +52,11 @@ public class ObjetoGeomatrico {
             panel = new DesenharCirculo(x, y, largura, altura);
         }
         else if (formaGeometrica == FormasGeometricas.retangulo) {
-            int x = centroX + dadosFormaGeometrica.get("x");
-            int y = centroY + dadosFormaGeometrica.get("y");
             int altura = dadosFormaGeometrica.get("altura");
             int largura = dadosFormaGeometrica.get("largura");
+            int x = centroX + dadosFormaGeometrica.get("x") - largura/2;
+            int y = centroY + dadosFormaGeometrica.get("y") - altura/2;
+
             panel = new DesenharRetangulo(x, y, largura, altura);
         }
 

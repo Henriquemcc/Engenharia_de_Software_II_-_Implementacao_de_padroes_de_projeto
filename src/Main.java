@@ -11,7 +11,7 @@ public class Main {
      * @param args Argumentos da função (inútil).
      * @throws IOException Exceção das classes File e PrintStream.
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         System.out.println("Aluno: Henrique Mendonça Castelar Campos");
         System.out.println("Curso: Ciência da Computação");

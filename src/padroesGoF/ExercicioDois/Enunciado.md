@@ -1,3 +1,5 @@
+[English Version]()
+
 # Exercício 2
 
 O software que controla a venda de títulos privados de um banco de investimentos tem de ser flexível o suficiente para acomodar as variações nos procedimentos de venda de CDBs, letras de câmbio e debêntures. Entretanto, a sequência na qual esses procedimentos são executados é a mesma para todos os tipos de títulos. Sendo assim, os projetistas desse software adotaram o design descrito a seguir.

@@ -1,3 +1,5 @@
+[English Version]()
+
 # Questão B.6
 
 Dada a seguinte classe que representa os dados de um correntista, mais as despesas previstas para o mesmo.

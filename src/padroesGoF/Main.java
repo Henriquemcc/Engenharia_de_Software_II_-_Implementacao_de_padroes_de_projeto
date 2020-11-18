@@ -17,11 +17,11 @@ public class Main {
         System.out.println("------------");
         System.out.println();
         System.out.println("Exercício 1:");
-        padroesGoF.ExercicioUm.Main.main(args);
+        padroesGoF.exercicioUm.Main.main(args);
         System.out.println();
 
         System.out.println("Exercício 3:");
-        padroesGoF.ExercicioTres.ExemploTeste.Main.main(args);
+        padroesGoF.exercicioTres.exemploTeste.Main.main(args);
         System.out.println();
 
     }

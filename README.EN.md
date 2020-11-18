@@ -10,64 +10,64 @@ This repository contains the source code files developed in the list of exercise
 
 #### Exercise 1
 
-[Task](src/padroesGoF/ExercicioUm/Enunciado.md)
+[Task](src/padroesGoF/exercicioUm/Enunciado.md)
 
-[Answer](src/padroesGoF/ExercicioUm)
+[Answer](src/padroesGoF/exercicioUm)
 
 #### Exercise 2
 
-[Task](src/padroesGoF/ExercicioDois/Enunciado.md)
+[Task](src/padroesGoF/exercicioDois/Enunciado.md)
 
-[Answer](src/padroesGoF/ExercicioDois/Resposta.md)
+[Answer](src/padroesGoF/exercicioDois/Resposta.md)
 
 #### Exercise 3
 
-[Task](src/padroesGoF/ExercicioTres/Enunciado.md)
+[Task](src/padroesGoF/exercicioTres/Enunciado.md)
 
-[Answer](src/padroesGoF/ExercicioTres)
+[Answer](src/padroesGoF/exercicioTres)
 
 ### Design Patterns GRASP – Implementation
 
 #### Block of Questions A
 
-[Task](src/padroesGrasp/A/Enunciado.md)
+[Task](src/padroesGrasp/a/Enunciado.md)
 
 ##### Question A.1
 
-[Task](src/padroesGrasp/A/QuestaoUm/Enunciado.md)
+[Task](src/padroesGrasp/a/questaoUm/Enunciado.md)
 
-[Answer](src/padroesGrasp/A/QuestaoUm)
+[Answer](src/padroesGrasp/a/questaoUm)
 
 ##### Question A.2
 
-[Task](src/padroesGrasp/A/QuestaoDois/Enunciado.md)
+[Task](src/padroesGrasp/a/questaoDois/Enunciado.md)
 
-[Answer](src/padroesGrasp/A/QuestaoDois)
+[Answer](src/padroesGrasp/a/questaoDois)
 
 ##### Question A.3
 
-[Task](src/padroesGrasp/A/QuestaoTres/Enunciado.md)
+[Task](src/padroesGrasp/a/questaoTres/Enunciado.md)
 
-[Answer](src/padroesGrasp/A/QuestaoTres)
+[Answer](src/padroesGrasp/a/questaoTres)
 
 #### Block of Questions B
 
-[Task](src/padroesGrasp/B/Enunciado.md)
+[Task](src/padroesGrasp/b/Enunciado.md)
 
 ##### Question B.4
 
-[Task](src/padroesGrasp/B/QuestaoQuatro/Enunciado.md)
+[Task](src/padroesGrasp/b/questaoQuatro/Enunciado.md)
 
-[Answer](src/padroesGrasp/B/QuestaoQuatro)
+[Answer](src/padroesGrasp/b/questaoQuatro)
 
 ##### Question B.5
 
-[Task](src/padroesGrasp/B/QuestaoCinco/Enunciado.md)
+[Task](src/padroesGrasp/b/questaoCinco/Enunciado.md)
 
-[Answer](src/padroesGrasp/B/QuestaoCinco)
+[Answer](src/padroesGrasp/b/questaoCinco)
 
 ##### Question B.6
 
-[Task](src/padroesGrasp/B/QuestaoSeis/Enunciado.md)
+[Task](src/padroesGrasp/b/questaoSeis/Enunciado.md)
 
-[Answer](src/padroesGrasp/B/QuestaoSeis)
+[Answer](src/padroesGrasp/b/questaoSeis)

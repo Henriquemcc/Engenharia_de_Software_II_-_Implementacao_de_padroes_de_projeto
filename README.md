@@ -10,64 +10,64 @@ Este repositório contém os arquivos de código fonte desenvolvidos na lista de
 
 #### Exercício 1
 
-[Enunciado](src/padroesGoF/ExercicioUm/Enunciado.md)
+[Enunciado](src/padroesGoF/exercicioUm/Enunciado.md)
 
-[Resposta](src/padroesGoF/ExercicioUm)
+[Resposta](src/padroesGoF/exercicioUm)
 
 #### Exercício 2
 
-[Enunciado](src/padroesGoF/ExercicioDois/Enunciado.md)
+[Enunciado](src/padroesGoF/exercicioDois/Enunciado.md)
 
-[Resposta](src/padroesGoF/ExercicioDois/Resposta.md)
+[Resposta](src/padroesGoF/exercicioDois/Resposta.md)
 
 #### Exercício 3
 
-[Enunciado](src/padroesGoF/ExercicioTres/Enunciado.md)
+[Enunciado](src/padroesGoF/exercicioTres/Enunciado.md)
 
-[Resposta](src/padroesGoF/ExercicioTres)
+[Resposta](src/padroesGoF/exercicioTres)
 
 ### Design Patterns GRASP – implementações
 
 #### Bloco de Questões A
 
-[Enunciado](src/padroesGrasp/A/Enunciado.md)
+[Enunciado](src/padroesGrasp/a/Enunciado.md)
 
 ##### Questão A.1
 
-[Enunciado](src/padroesGrasp/A/QuestaoUm/Enunciado.md)
+[Enunciado](src/padroesGrasp/a/questaoUm/Enunciado.md)
 
-[Resposta](src/padroesGrasp/A/QuestaoUm)
+[Resposta](src/padroesGrasp/a/questaoUm)
 
 ##### Questão A.2
 
-[Enunciado](src/padroesGrasp/A/QuestaoDois/Enunciado.md)
+[Enunciado](src/padroesGrasp/a/questaoDois/Enunciado.md)
 
-[Resposta](src/padroesGrasp/A/QuestaoDois)
+[Resposta](src/padroesGrasp/a/questaoDois)
 
 ##### Questão A.3
 
-[Enunciado](src/padroesGrasp/A/QuestaoTres/Enunciado.md)
+[Enunciado](src/padroesGrasp/a/questaoTres/Enunciado.md)
  
-[Resposta](src/padroesGrasp/A/QuestaoTres)
+[Resposta](src/padroesGrasp/a/questaoTres)
 
 #### Bloco de Questões B
 
-[Enunciado](src/padroesGrasp/B/Enunciado.md)
+[Enunciado](src/padroesGrasp/b/Enunciado.md)
 
 ##### Questão B.4
 
-[Enunciado](src/padroesGrasp/B/QuestaoQuatro/Enunciado.md)
+[Enunciado](src/padroesGrasp/b/questaoQuatro/Enunciado.md)
 
-[Resposta](src/padroesGrasp/B/QuestaoQuatro)
+[Resposta](src/padroesGrasp/b/questaoQuatro)
 
 ##### Questão B.5
 
-[Enunciado](src/padroesGrasp/B/QuestaoCinco/Enunciado.md)
+[Enunciado](src/padroesGrasp/b/questaoCinco/Enunciado.md)
 
-[Resposta](src/padroesGrasp/B/QuestaoCinco)
+[Resposta](src/padroesGrasp/b/questaoCinco)
 
 ##### Questão B.6
 
-[Enunciado](src/padroesGrasp/B/QuestaoSeis/Enunciado.md)
+[Enunciado](src/padroesGrasp/b/questaoSeis/Enunciado.md)
 
-[Resposta](src/padroesGrasp/B/QuestaoSeis)
+[Resposta](src/padroesGrasp/b/questaoSeis)

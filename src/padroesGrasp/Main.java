@@ -16,9 +16,9 @@ public class Main {
         System.out.println("--------------");
         System.out.println();
 
-        padroesGrasp.A.Main.main(args);
+        padroesGrasp.a.Main.main(args);
         System.out.println();
-        padroesGrasp.B.Main.main(args);
+        padroesGrasp.b.Main.main(args);
         System.out.println();
     }
 }

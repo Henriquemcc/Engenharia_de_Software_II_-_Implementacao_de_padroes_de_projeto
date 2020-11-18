@@ -1,6 +1,6 @@
 [Versão em Português](Enunciado.md)
 
-# Questão B.6
+# Question B.6
 
 Given the following class that represents the data of an account holder, and the expenses foreseen for it.
 

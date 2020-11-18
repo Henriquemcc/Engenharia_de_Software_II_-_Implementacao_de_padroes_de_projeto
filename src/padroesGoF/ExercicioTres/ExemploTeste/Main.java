@@ -1,15 +1,15 @@
 package padroesGoF.ExercicioTres.ExemploTeste;
 
-import padroesGoF.ExercicioTres.ObjetoGeometrico;
-import padroesGoF.ExercicioTres.Visual;
+import padroesGoF.ExercicioTres.*;
 
-import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Classe principal.
  */
 public class Main {
+
+    private static final int timeOut = 5;
 
     /**
      * Função principal.
@@ -35,35 +35,14 @@ public class Main {
      */
     private static void desenharLinhaRetanguloCirculo() throws InterruptedException {
         System.out.println("Desenhando Retângulo, Círculo e Linha na mesma janela");
-        //Linha
-        HashMap<String, Integer> dadosLinha = new HashMap<>();
-        dadosLinha.put("x1", -300);
-        dadosLinha.put("y1", -300);
-        dadosLinha.put("y2", 300);
-        ObjetoGeometrico.DadosObjetoGeometrico linha = new ObjetoGeometrico.DadosObjetoGeometrico();
-        linha.formaGeometrica = ObjetoGeometrico.FormasGeometricas.linha;
-        linha.dadosFormaGeometrica = dadosLinha;
 
-        HashMap<String, Integer> dadosRetangulo = new HashMap<>();
-        dadosRetangulo.put("x", 0);
-        dadosRetangulo.put("y", 0);
-        dadosRetangulo.put("altura", 600);
-        dadosRetangulo.put("largura", 600);
-        ObjetoGeometrico.DadosObjetoGeometrico retangulo = new ObjetoGeometrico.DadosObjetoGeometrico();
-        retangulo.formaGeometrica = ObjetoGeometrico.FormasGeometricas.retangulo;
-        retangulo.dadosFormaGeometrica = dadosRetangulo;
+        Retangulo retangulo = new Retangulo(0, 0, 600, 600);
+        Circulo circulo = new Circulo(0, 0, 350);
+        Linha linha = new Linha(-350, -350, 350);
 
-        HashMap<String, Integer> dadosCirculo = new HashMap<>();
-        dadosCirculo.put("x", 0);
-        dadosCirculo.put("y", 0);
-        dadosCirculo.put("raio", 350);
-        ObjetoGeometrico.DadosObjetoGeometrico circulo = new ObjetoGeometrico.DadosObjetoGeometrico();
-        circulo.formaGeometrica = ObjetoGeometrico.FormasGeometricas.circulo;
-        circulo.dadosFormaGeometrica = dadosCirculo;
-
-        ObjetoGeometrico varios = new ObjetoGeometrico(linha, retangulo, circulo);
-        varios.desenhar();
-        TimeUnit.SECONDS.sleep(5);
+        ObjetoComposto objetoComposto = new ObjetoComposto(new Objeto[]{retangulo, circulo, linha});
+        objetoComposto.desenhar();
+        TimeUnit.SECONDS.sleep(timeOut);
     }
 
     /**
@@ -74,7 +53,7 @@ public class Main {
     private static void desenharLinha() throws InterruptedException {
         System.out.println("Desenhando a Linha");
         Visual.drawLine(-300, -300, 300);
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(timeOut);
     }
 
     /**
@@ -85,7 +64,7 @@ public class Main {
     private static void desenharCirculo() throws InterruptedException {
         System.out.println("Desenhando o Círculo");
         Visual.drawCircle(0, 0, 350);
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(timeOut);
     }
 
     /**
@@ -96,7 +75,7 @@ public class Main {
     private static void desenharRetangulo() throws InterruptedException {
         System.out.println("Desenhando o Retângulo");
         Visual.drawRectangle(0, 0, 600, 600);
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(timeOut);
     }
 
 }

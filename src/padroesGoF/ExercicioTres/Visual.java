@@ -1,45 +1,45 @@
 package padroesGoF.ExercicioTres;
 
-import java.util.HashMap;
-
+/**
+ * Representa a classe Visual solicitada pelo enunciado.
+ */
 public class Visual {
 
+    /**
+     * Desenha uma linha.
+     *
+     * @param x1 Coordenada x do ponto de origem.
+     * @param y1 Coordenada y do ponto de origem.
+     * @param y2 Coordenada y do ponto de destino.
+     */
     public static void drawLine(int x1, int y1, int y2) {
-        HashMap<String, Integer> hashMap = new HashMap<>();
-        hashMap.put("x1", x1);
-        hashMap.put("y1", y1);
-        hashMap.put("y2", y2);
-        ObjetoGeometrico.DadosObjetoGeometrico dados = new ObjetoGeometrico.DadosObjetoGeometrico();
-        dados.formaGeometrica = ObjetoGeometrico.FormasGeometricas.linha;
-        dados.dadosFormaGeometrica = hashMap;
-        ObjetoGeometrico linha = new ObjetoGeometrico(dados);
+        Linha linha = new Linha(x1, y1, y2);
         linha.desenhar();
     }
 
+    /**
+     * Desenha um retângulo.
+     *
+     * @param x       Coordenada X do canto esquerdo superior.
+     * @param y       Coordenada Y do canto esquerdo superior.
+     * @param altura  Altura do retângulo.
+     * @param largura Largura do retângulo.
+     */
     public static void drawRectangle(int x, int y, int altura, int largura) {
-
-        HashMap<String, Integer> hashMap = new HashMap<>();
-        hashMap.put("x", x);
-        hashMap.put("y", y);
-        hashMap.put("altura", altura);
-        hashMap.put("largura", largura);
-        ObjetoGeometrico.DadosObjetoGeometrico dados = new ObjetoGeometrico.DadosObjetoGeometrico();
-        dados.formaGeometrica = ObjetoGeometrico.FormasGeometricas.retangulo;
-        dados.dadosFormaGeometrica = hashMap;
-        ObjetoGeometrico retangulo = new ObjetoGeometrico(dados);
+        Retangulo retangulo = new Retangulo(x, y, altura, largura);
         retangulo.desenhar();
     }
 
+    /**
+     * Desenha um círculo.
+     *
+     * @param x    Coordenada x do centro.
+     * @param y    Coordenada Y do centro.
+     * @param raio Raio do círculo.
+     */
     public static void drawCircle(int x, int y, int raio) {
 
-        HashMap<String, Integer> hashMap = new HashMap<>();
-        hashMap.put("x", x);
-        hashMap.put("y", y);
-        hashMap.put("raio", raio);
-        ObjetoGeometrico.DadosObjetoGeometrico dados = new ObjetoGeometrico.DadosObjetoGeometrico();
-        dados.formaGeometrica = ObjetoGeometrico.FormasGeometricas.circulo;
-        dados.dadosFormaGeometrica = hashMap;
-        ObjetoGeometrico circulo = new ObjetoGeometrico(dados);
+        Circulo circulo = new Circulo(x, y, raio);
         circulo.desenhar();
     }
 }

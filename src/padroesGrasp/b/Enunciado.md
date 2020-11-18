@@ -1,4 +1,4 @@
-[English Version]()
+[English Version](Enunciado.EN.md)
 
 # Bloco de Questões B
 

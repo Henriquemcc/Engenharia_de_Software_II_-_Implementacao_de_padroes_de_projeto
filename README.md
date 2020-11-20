@@ -110,15 +110,15 @@ Para obter o código fonte, clone o repositório git ou baixe o arquivo .zip do 
 
 1. Com o Intellij IDEA aberto, abra o código fonte de uma classe cujo nome seja Main
 
-![](icones\1.PNG)
+![](icones/1.png)
 
 2. Clique no icone verde ao lado esquerdo da declaração da classe
 
-![](icones\2.PNG)
+![](icones/2.png)
 
 3. Clique em Run 'Main.main()'
 
-![](icones\3.PNG)
+![](icones/3.png)
 
 ## Baixando e executando o arquivo .jar
 

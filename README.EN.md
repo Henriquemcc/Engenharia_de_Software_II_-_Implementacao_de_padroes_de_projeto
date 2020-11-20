@@ -96,15 +96,15 @@ This repository contains the source code files developed in the list of exercise
 
 1. With Intellij IDEA open, open the source code of a Main class
 
-![](icones\1.PNG)
+![](icones/1.png)
 
 2. Click the green icon to the left of the class declaration
 
-![](icones\2.PNG)
+![](icones/2.png)
 
 3. Click Run 'Main.main()'
 
-![](icones\3.PNG)
+![](icones/3.png)
 
 ## Downloading and running the .jar file
 
